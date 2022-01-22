@@ -298,7 +298,7 @@ ol {
     background: #fff; }
 
   #banner-part .slider-nav {
-    bottom: -210px; }
+    bottom: 10%; }
     #banner-part .slider-nav .next-arrow {
       color: #fff;
       padding: 10px 14px;
