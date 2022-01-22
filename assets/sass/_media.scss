@@ -36,7 +36,15 @@
 
 /*======== small device =========*/
 
-@media (min-width: 576px) and (max-width: 767.98px) {}
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .navbar-light .navbar-toggler {
+        background: #fff;
+    }
+
+    #banner-part .slider-nav {
+        bottom: 10%;
+    }
+}
 
 /*======== Extra small device =========*/
 
@@ -46,7 +54,7 @@
     }
 
     #banner-part .slider-nav {
-        bottom: 10%;
+        bottom: 20px;
 
         .next-arrow {
             color: #fff;

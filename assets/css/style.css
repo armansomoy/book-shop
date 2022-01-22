@@ -292,13 +292,19 @@ ol {
 /*======== large device =========*/
 /*======== medium device =========*/
 /*======== small device =========*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .navbar-light .navbar-toggler {
+    background: #fff; }
+
+  #banner-part .slider-nav {
+    bottom: 10%; } }
 /*======== Extra small device =========*/
 @media (max-width: 575.98px) {
   .navbar-light .navbar-toggler {
     background: #fff; }
 
   #banner-part .slider-nav {
-    bottom: 10%; }
+    bottom: 20px; }
     #banner-part .slider-nav .next-arrow {
       color: #fff;
       padding: 10px 14px;
