@@ -303,8 +303,10 @@ ol {
   .navbar-light .navbar-toggler {
     background: #fff; }
 
+  #banner-part .slide-bg {
+    height: 700px; }
   #banner-part .slider-nav {
-    bottom: 20px; }
+    bottom: -100px; }
     #banner-part .slider-nav .next-arrow {
       color: #fff;
       padding: 10px 14px;

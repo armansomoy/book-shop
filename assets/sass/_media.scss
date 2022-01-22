@@ -53,20 +53,26 @@
         background: #fff;
     }
 
-    #banner-part .slider-nav {
-        bottom: 20px;
+    #banner-part {
+        .slide-bg {
+            height: 700px;
+        }
 
-        .next-arrow {
-            color: #fff;
-            padding: 10px 14px;
-            border: none;
-            background-color: rgba(0, 0, 0, 0.6);
-            font-size: 20px;
-            right: 10px;
-            position: absolute;
-            z-index: 9;
-            top: 33%;
-            cursor: pointer;
+        .slider-nav {
+            bottom: -100px;
+
+            .next-arrow {
+                color: #fff;
+                padding: 10px 14px;
+                border: none;
+                background-color: rgba(0, 0, 0, 0.6);
+                font-size: 20px;
+                right: 10px;
+                position: absolute;
+                z-index: 9;
+                top: 33%;
+                cursor: pointer;
+            }
         }
     }
 }
